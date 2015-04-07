@@ -1,0 +1,28 @@
+
+th{
+	color:#a02;
+}
+td{
+	color:#25a;
+}
+body{
+	background-color:#eee;
+}
+input[type=number]{
+	border:1px solid #26b;
+	color:green;
+}
+.text{
+	color:#25a; 
+	line-height:1.5em; 
+	letter-spacing:0.2em; 
+	font-family:Verdana, Geneva, sans-serif; font-size:14px;
+}
+.square_number{
+	color:#F60;
+}
+input[type=submit]{
+	color:white; 
+	background-color:#26b; 
+	border:1px solid white;
+}
