@@ -50,11 +50,11 @@
 
 
 	if (isset($_POST['make_table'])){
-		$v_start = $_SESSION['v_start'] = $_POST['vertical_start']; //get user input
-		$v_stop = $_SESSION['v_stop'] = $_POST['vertical_stop']; //
+		$v_start = $_POST['vertical_start']; //get user input
+		$v_stop = $_POST['vertical_stop']; //
 		
-		$h_start= $_SESSION['h_start'] = $_POST['horizontal_start'];//
-		$h_stop = $_SESSION['h_stop'] = $_POST['horizontal_stop']; //... user input
+		$h_start = $_POST['horizontal_start'];//
+		$h_stop = $_POST['horizontal_stop']; //... user input
 		
 		
 		if ($_POST['vertical_start']>$_POST['vertical_stop']){ // invert start and stop if stop < start
